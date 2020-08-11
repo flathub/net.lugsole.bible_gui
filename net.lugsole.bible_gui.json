@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://source.puri.sm/Librem5/libhandy.git",
-                    "commit":"7a193d7692c9c76a1a94f17c4d30b585f77d177c"
+                    "url": "https://gitlab.gnome.org/GNOME/libhandy.git",
+                    "commit":"3a61bd9c6bc95f5418ef5376a99632d103162d49"
                 }
             ]
         },
@@ -56,8 +56,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Lugsole/net.lugsole.bible_gui",
-                    "commit": "01bce26cf56eb87b17f98c67bb85a82849f0d276"
-		}
+                    "commit": "b774a3f3b0d06bf6c44c4854e23922988b487588"
+				}
             ]
         }
     ]
