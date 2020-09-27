@@ -55,7 +55,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/Lugsole/net.lugsole.bible_gui"
+                    "url": "https://github.com/Lugsole/net.lugsole.bible_gui",
+                    "commit": "f174572fb84bdbd68e9d39d360087538de9a0939"
                 }
             ]
         }
