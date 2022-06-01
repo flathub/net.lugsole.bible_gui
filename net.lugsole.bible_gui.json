@@ -1,14 +1,16 @@
 {
     "app-id" : "net.lugsole.bible_gui",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "bible",
     "finish-args" : [
+        "--device=dri",
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--socket=pulseaudio"
+        "--socket=pulseaudio",
+        "--own-name=org.mpris.MediaPlayer2.Bible"
     ],
     "cleanup": [
         "/include",
@@ -23,28 +25,13 @@
     ],
     "modules": [
         {
-            "name": "libhandy",
-            "buildsystem": "meson",
-            "builddir": true,
-            "config-opts": [
-                "-Dglade_catalog=disabled"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "commit":"94313c206258860b2428712e7ece1d02c5177857"
-                }
-            ]
-        },
-        {
             "name": "espeak",
 	    "no-parallel-make": true,
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/espeak-ng/espeak-ng",
-                    "commit": "ec7ebfb3c6767edc7575113562eac72e6d348732"
+                    "commit": "a25849e4d54a23ae1294b129d5696ca7e144ec8b"
                 }
             ]
         },
@@ -56,7 +43,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Lugsole/net.lugsole.bible_gui",
-                    "commit": "64170dda50a6e2283007dd9b69fd5f07b720d02d"
+                    "commit": "25a6995c7b4175c2dcd06a3e7715a748c8ad7860"
                 }
             ]
         }
