@@ -3,7 +3,7 @@
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
-    "command" : "bible",
+    "command" : "net.lugsole.bible_gui",
     "finish-args" : [
         "--device=dri",
         "--share=ipc",
