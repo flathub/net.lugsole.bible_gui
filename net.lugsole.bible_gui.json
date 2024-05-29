@@ -1,9 +1,9 @@
 {
     "app-id" : "net.lugsole.bible_gui",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
-    "command" : "bible",
+    "command" : "net.lugsole.bible_gui",
     "finish-args" : [
         "--device=dri",
         "--share=ipc",
@@ -43,7 +43,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Lugsole/net.lugsole.bible_gui",
-                    "commit": "4fe12d6a0afcb5a3b0ca1f6d80d4ab0480912708"
+                    "commit": "033482498bcb55c4f9a0541fcab5cab08a6c2073"
                 }
             ]
         }
